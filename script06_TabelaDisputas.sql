@@ -5,7 +5,7 @@
 	[OponenteId] [int] NOT NULL,
 	[Tx_Narracao] [nvarchar](max) NULL)
 
-go
+GO
 INSERT INTO TB_DISPUTAS VALUES 
 (getdate(), 3, 6, 'Galadriel atacou Celeborn usando Machado com o dano 48.'),
 (getdate(), 7, 2, 'Atacante: Radagast. Oponente: Sam.  Pontos de vida do atacante: 100.  Pontos de vida do oponente: 66.  Arma Utilizada: Cajado.  Dano: 9.'),

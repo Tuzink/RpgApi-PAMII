@@ -5,6 +5,7 @@ CREATE TABLE [TB_ARMAS] (
     [Dano] int NOT NULL,
     CONSTRAINT [PK_TB_ARMAS] PRIMARY KEY ([Id])
 );
+GO
 
 IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Dano', N'Nome') AND [object_id] = OBJECT_ID(N'[TB_ARMAS]'))
     SET IDENTITY_INSERT [TB_ARMAS] ON;
